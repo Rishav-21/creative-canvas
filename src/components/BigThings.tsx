@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const V1 = "https://assets.mixkit.co/videos/4640/4640-720.mp4";
-const V2 = "https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-32809-large.mp4";
-const V3 = "https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-leaves-1173-large.mp4";
+const V2 = "https://assets.mixkit.co/videos/4641/4641-720.mp4";
+const V3 = "https://assets.mixkit.co/videos/1721/1721-720.mp4";
 
 function InlineVideo({ src, className }: { src: string; className: string }) {
   return (

@@ -6,25 +6,25 @@ const WORK = [
     client: "PEPSI",
     campaign: "The Choice",
     category: "Brand Film",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-young-man-listening-to-music-on-his-headphones-1228-large.mp4",
+    video: "https://assets.mixkit.co/videos/1198/1198-720.mp4",
   },
   {
     client: "WHISKAS",
     campaign: "Lucky Cat",
     category: "Integrated Campaign",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-cat-on-the-floor-looking-around-1175-large.mp4",
+    video: "https://assets.mixkit.co/videos/2400/2400-720.mp4",
   },
   {
     client: "MCDONALD'S",
     campaign: "Happy Doggy",
     category: "Social",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-funny-puppy-eating-a-treat-on-the-floor-44650-large.mp4",
+    video: "https://assets.mixkit.co/videos/4063/4063-720.mp4",
   },
   {
     client: "SKINNY",
     campaign: "Ads In My Phone Calls",
     category: "Digital",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-woman-taking-photos-with-her-smartphone-1234-large.mp4",
+    video: "https://assets.mixkit.co/videos/5012/5012-720.mp4",
   },
 ];
 
