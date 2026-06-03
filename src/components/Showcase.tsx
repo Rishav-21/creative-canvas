@@ -31,7 +31,7 @@ export function Showcase() {
       <div className="sticky top-0 h-screen w-full overflow-hidden">
         <div className="showcase-video absolute inset-0 overflow-hidden">
           <video
-            src="https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-city-traffic-at-night-11-large.mp4"
+            src="https://assets.mixkit.co/videos/4715/4715-720.mp4"
             autoPlay
             muted
             loop
