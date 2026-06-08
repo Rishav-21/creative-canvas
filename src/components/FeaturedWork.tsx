@@ -42,6 +42,8 @@ function Card({ item, index }: { item: (typeof WORK)[number]; index: number }) {
       className={`group relative block overflow-hidden rounded-3xl bg-card ${
         index % 2 === 1 ? "lg:mt-24" : ""
       }`}
+      data-cursor="view"
+      data-cursor-label="Play"
     >
       <div className="relative aspect-[4/5] overflow-hidden">
         <video
