@@ -55,12 +55,12 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="flex items-end justify-between gap-4">
+        <div className="flex w-full items-end justify-between gap-[2vw] leading-none">
           <motion.h1
             initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.9, ease: [0.76, 0, 0.24, 1] }}
-            className="hero-word-left text-[18vw] font-black leading-[0.8] tracking-[-0.05em] text-background md:text-[14vw]"
+            className="hero-word-left flex-1 text-left text-[clamp(5rem,15vw,16rem)] font-black leading-[0.8] tracking-[-0.05em] text-background"
           >
             DO
           </motion.h1>
@@ -68,7 +68,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.05, ease: [0.76, 0, 0.24, 1] }}
-            className="hero-word-right text-right text-[18vw] font-black italic leading-[0.8] tracking-[-0.05em] text-background md:text-[14vw]"
+            className="hero-word-right flex-1 text-right text-[clamp(5rem,15vw,16rem)] font-black italic leading-[0.8] tracking-[-0.05em] text-background"
           >
             THINGS
           </motion.h1>
