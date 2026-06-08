@@ -23,19 +23,23 @@ export default function Home() {
       <Cursor />
       <ScrollProgress />
       <Navbar />
-      <Hero />
-      <BigThings />
-      <MarqueeBand />
-      <FeaturedWork />
-      <Showcase />
-      <Services />
-      <Clients />
-      <Stats />
-      <Team />
-      <Testimonials />
-      <Careers />
-      <ContactCTA />
-      <Footer />
+      <div className="sticky top-0 h-screen w-full">
+        <Hero />
+      </div>
+      <div className="relative z-10 -mt-[10vh] rounded-t-[40px] bg-background shadow-[0_-20px_60px_-20px_rgba(0,0,0,0.6)] overflow-hidden">
+        <BigThings />
+        <MarqueeBand />
+        <FeaturedWork />
+        <Showcase />
+        <Services />
+        <Clients />
+        <Stats />
+        <Team />
+        <Testimonials />
+        <Careers />
+        <ContactCTA />
+        <Footer />
+      </div>
     </main>
   );
 }
