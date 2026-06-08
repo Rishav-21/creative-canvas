@@ -26,7 +26,7 @@ export default function Home() {
       <div className="sticky top-0 h-screen w-full">
         <Hero />
       </div>
-      <div className="relative z-10 -mt-[10vh] rounded-t-[40px] bg-background shadow-[0_-20px_60px_-20px_rgba(0,0,0,0.6)] overflow-hidden">
+      <div className="relative z-10 rounded-t-[40px] bg-background shadow-[0_-20px_60px_-20px_rgba(0,0,0,0.6)] overflow-hidden">
         <BigThings />
         <MarqueeBand />
         <FeaturedWork />
