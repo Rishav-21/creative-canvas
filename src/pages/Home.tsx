@@ -12,6 +12,8 @@ import { Careers } from "@/components/Careers";
 import { ContactCTA } from "@/components/ContactCTA";
 import { Footer } from "@/components/Footer";
 import { Cursor } from "@/components/Cursor";
+import { ScrollProgress } from "@/components/ScrollProgress";
+import { MarqueeBand } from "@/components/MarqueeBand";
 import { useLenis } from "@/hooks/useLenis";
 
 export default function Home() {
@@ -19,9 +21,11 @@ export default function Home() {
   return (
     <main id="top" className="relative bg-background text-foreground">
       <Cursor />
+      <ScrollProgress />
       <Navbar />
       <Hero />
       <BigThings />
+      <MarqueeBand />
       <FeaturedWork />
       <Showcase />
       <Services />

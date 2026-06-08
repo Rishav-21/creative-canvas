@@ -30,12 +30,15 @@ export function Team() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: i * 0.08 }}
-            className="group relative h-[60vh] w-[70vw] flex-shrink-0 overflow-hidden rounded-3xl md:w-[36vw] lg:w-[28vw]"
+            data-cursor="drag"
+            className={`group relative h-[60vh] w-[70vw] flex-shrink-0 overflow-hidden rounded-3xl md:w-[36vw] lg:w-[28vw] ${
+              i % 2 === 1 ? "md:translate-y-12" : ""
+            }`}
           >
             <img
               src={p.img}
               alt={p.name}
-              className="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0"
+              className="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
             />
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background to-transparent p-6">
               <h3 className="text-2xl font-black tracking-tight text-foreground">{p.name}</h3>
