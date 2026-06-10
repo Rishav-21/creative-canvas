@@ -38,12 +38,12 @@ export function Hero() {
         scrollTrigger: { trigger: sectionRef.current, start: "top top", end: "bottom top", scrub: 1 },
       });
       gsap.to(".hero-word-left", {
-        xPercent: -25,
+        xPercent: -120,
         ease: "none",
         scrollTrigger: { trigger: sectionRef.current, start: "top top", end: "bottom top", scrub: 1 },
       });
       gsap.to(".hero-word-right", {
-        xPercent: 25,
+        xPercent: 120,
         ease: "none",
         scrollTrigger: { trigger: sectionRef.current, start: "top top", end: "bottom top", scrub: 1 },
       });
