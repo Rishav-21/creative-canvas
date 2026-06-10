@@ -29,6 +29,8 @@ export function ContactCTA() {
         >
           <a
             href="mailto:hello@voltagency.com"
+            data-magnetic
+            data-cursor-hover
             className="group inline-flex items-center gap-3 rounded-full bg-background px-8 py-4 text-base font-semibold text-foreground transition-transform hover:scale-105"
           >
             Start a Project
