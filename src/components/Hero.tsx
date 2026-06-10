@@ -82,16 +82,16 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="flex w-full items-end justify-between gap-[2vw] leading-none">
+        <div className="flex w-full items-end justify-center gap-[0.18em] leading-none">
           <h1
             aria-label="DO"
-            className="hero-word-left flex-1 text-left text-[clamp(5rem,15vw,16rem)] font-black leading-[0.85] tracking-[-0.05em] text-background"
+            className="hero-word-left text-[clamp(5rem,15vw,16rem)] font-black leading-[0.85] tracking-[-0.05em] text-background"
           >
             {splitChars("DO")}
           </h1>
           <h1
             aria-label="THINGS"
-            className="hero-word-right flex-1 text-right text-[clamp(5rem,15vw,16rem)] font-black italic leading-[0.85] tracking-[-0.05em] text-background"
+            className="hero-word-right text-[clamp(5rem,15vw,16rem)] font-black italic leading-[0.85] tracking-[-0.05em] text-background"
           >
             {splitChars("THINGS")}
           </h1>
